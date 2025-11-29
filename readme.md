@@ -7,6 +7,7 @@
 本專案旨在開發一套輕量化的跌倒預測系統，能夠部署於資源受限的邊緣裝置（如 ESP32-S3）。系統利用 **CNN-Dense** 深度學習模型處理 6 軸感測器數據（加速度計 + 陀螺儀），實現 **「跌倒前預判 (Pre-impact Prediction)」**，而非傳統的跌倒後偵測。
 
 本系統平均可在跌倒發生前發出預警，能夠與防護氣囊等主動防護硬體結合，有效降低跌倒傷害。
+<img width="425" height="356" alt="image" src="https://github.com/user-attachments/assets/dd059183-afc1-4b07-b6e0-ce0d4b87213c" />
 
 ### 核心特點
 * **Dataset**：使用公開數據集 **KFall Dataset** 進行模型訓練與驗證，確保數據的多樣性與準確性。
